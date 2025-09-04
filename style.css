@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 36);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(10, 10, 75);
+    height: 4rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(80, 80, 214);
+    font-weight: bold;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 90px 0;
+}
+
+.firstSection>div {
+    width: 40%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+    /* margin: 30px 0; */
+}
+
+.leftSection .btn {
+    padding: 1rem;
+    background-color: #1e2167;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.leftSection .btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.rightSection img {
+    height: 30rem;
+    width: 30rem;
+}
+
+.purple {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+/* .role { font-weight: bold; } */
+#element {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(53, 16, 88);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 116vh;
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondSection .horizontal {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    background: white;
+    width: 2px;
+    height: 100px;
+    margin: 0 120px;
+}
+
+.secondSection .vertical img {
+    width: 25px;
+    position: relative;
+    top: -28px;
+    left: -11px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 160px;
+    font-weight: bolder;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 80px;
+    width: 175px;
+    font-size: small;
+    color: rgb(150, 147, 147);
+}
+.skills{
+    margin-top: 18rem;
+}
+.skills h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills ul li {
+    margin-bottom: 0.5rem;
+    color: #ddd;
+    font-size: 0.95rem;
+}
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 110vh;
+}
+
+.thirdSection h1 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.thirdSection a {
+    text-decoration: none;
+    color: rgb(101, 31, 167);
+}
+
+.thirdSection a:hover {
+    color: rgb(58, 14, 99);
+}
+
+.thirdSection i {
+    color: white;
+}
+
+footer {
+    background-color: rgb(20, 16, 49);
+    /* height: 350px; */
+}
+
+.footer {
+    display: flex;
+    padding: 2rem 5rem;
+    justify-content: space-evenly;
+}
+
+footer .heading {
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+/* .footer div{ width: 20rem; } */
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer ul li a:hover {
+    color: rgb(58, 14, 99);
+}
+
+.footer .footer-first {
+    width: 20rem;
+    color: rgb(188, 184, 184);
+    ;
+}
+
+.footer .footer-forth ul li img {
+    height: 5rem;
+    cursor: pointer;
+}
+
+.footer-rights {
+    text-align: center;
+    color: rgb(99, 97, 97);
+    padding: 1rem 0;
+}
+
+/* Modal background */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Modal image */
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 8px;
+}
+
+/* Close button */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #bbb;
+}
