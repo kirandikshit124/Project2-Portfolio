@@ -15,6 +15,11 @@ nav {
     align-items: center;
     background-color: rgb(10, 10, 75);
     height: 4rem;
+    position: fixed;   /* Fixes it at top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;   /* Keeps nav above all content */
 }
 
 nav ul {
